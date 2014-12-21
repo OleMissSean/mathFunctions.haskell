@@ -24,3 +24,21 @@ UP to CSci 450-01 assignments document?
 
 Copyright © 2014, H. Conrad Cunningham
 Last modified: Mon Sep 8 11:11:03 CDT 2014
+______________________________________________________________________________________________________________________
+The following exercises call for the implementation of Haskell programs. For each
+function, informally argue that all the functions terminate. Take care that special
+cases and error conditions are handled in a reasonable way.
+1. Write a Haskell function xor that takes two Booleans and returns the \exclusive-
+or" of the two values. An exclusive-or operation returns True when exactly one
+of its arguments is True and returns False otherwise.
+2. Write a Haskell function mult that takes two natural numbers and returns
+their product. The function must not use the multiplication (*) or division (/)
+operators.
+3. Write a Haskell function to compute the maximum value in a nonempty list of
+integers. Generalize the function by making it polymorphic, accepting a value
+from any ordered type.
+4. Write a Haskell function adjpairs that takes a list and returns the list of
+all pairs of adjacent elements. For example, adjpairs [2,1,11,4] returns
+[(2,1), (1,11), (11,4)].
+5. Write a Haskell function mean that takes a list of integers and returns the mean
+(i.e., average) value for the list.
